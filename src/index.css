@@ -5,7 +5,7 @@
 
   color: rgba(255, 255, 255, 0.87);
 
-  --base: rgb(6, 13, 10);
+  --base: rgb(14, 20, 11);
   --nav-color: rgb(31, 60, 31);
   --color: rgb(97, 165, 97);
   --highlight: rgb(157, 246, 157);
@@ -30,10 +30,25 @@ a:hover {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 nav {
   vertical-align: middle;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: var(--nav-color);
+  width: 100%;
+}
+
+.page {
+  padding-top: 60px;
 }
 
 h1 {

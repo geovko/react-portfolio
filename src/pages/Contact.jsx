@@ -1,13 +1,13 @@
 // incomplete
-//import EmailForm from "../components/EmailForm";
+import EmailForm from "../components/EmailForm";
 
 function Contact() {
   return (
-    <div>
+    <div className="page">
       <h2>Contact</h2>
-      <div classname="send-email">
+      <div className="send-email">
         <h3>Send an email!</h3>
-        {/* <EmailForm /> */}
+        <EmailForm />
       </div>
     </div>
   );

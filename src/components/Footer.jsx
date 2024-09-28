@@ -2,20 +2,23 @@
 // add images
 // add functionality
 import { useState } from "react";
+// import githubIcon from "../assets/images/github-icon.png";
+// import linkedInIcon from "../assets/images/linkedIn-icon.png";
 
 function Footer() {
   const [hasFocus, setHasFocus] = useState(false);
 
   return (
-    <div>
+    <div className="footer">
       <a
         id="github"
         onMouseEnter={() => setHasFocus(true)}
         onMouseLeave={() => setHasFocus(false)}
         style={{ border: hasFocus ? "2px white" : "none" }}
-        href="/"
+        href="https://github.com/geovko"
       >
-        <img src="../images"></img>
+        Github
+        {/* <img src={githubIcon} alt="Github Icon"></img> */}
       </a>
 
       <a
@@ -23,9 +26,10 @@ function Footer() {
         onMouseEnter={() => setHasFocus(true)}
         onMouseLeave={() => setHasFocus(false)}
         style={{ border: hasFocus ? "2px white" : "none" }}
-        href="/"
+        href="https://www.linkedin.com/in/philip-kim-7bb032176/"
       >
-        <img src="../images"></img>
+        LinkedIn
+        {/* <img src={linkedInIcon} alt="LinkedIn Icon"></img> */}
       </a>
     </div>
   );
