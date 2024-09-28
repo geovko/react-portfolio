@@ -7,7 +7,7 @@ function Contact() {
       <h2>Contact</h2>
       <div classname="send-email">
         <h3>Send an email!</h3>
-        <EmailForm />
+        {/* <EmailForm /> */}
       </div>
     </div>
   );
