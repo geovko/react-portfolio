@@ -1,4 +1,3 @@
-import { setState } from "react";
 import emailjs from "@emailjs/browser";
 
 function EmailForm() {
