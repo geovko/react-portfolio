@@ -2,10 +2,10 @@ import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <div>
-      <title>
+    <div className="header">
+      <div>
         <h1>Philip Kim</h1>
-      </title>
+      </div>
       <Navigation />
     </div>
   );
