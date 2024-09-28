@@ -1,5 +1,5 @@
 // incomplete
-import EmailForm from "../components/EmailForm.jsx";
+// import EmailForm from "../components/EmailForm.jsx";
 
 function Contact() {
   return (
@@ -7,7 +7,7 @@ function Contact() {
       <h2>Contact</h2>
       <div className="send-email">
         <h3>Send an email!</h3>
-        <EmailForm />
+        {/* <EmailForm /> */}
       </div>
     </div>
   );
