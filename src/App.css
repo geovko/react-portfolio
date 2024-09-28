@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: var(--base);
 }
 
 h1 {
-  margin: 32px 0;
-  color: #000000;
+  margin: 5px 10px;
+  color: var(--color);
   font-size: 24px;
 }
 
@@ -25,30 +25,6 @@ h3 {
 .complete {
   text-decoration: line-through;
   opacity: 0.4;
-}
-
-.low {
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
-}
-
-.medium {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
-  );
-}
-
-.high {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
 }
 
 .icons {
@@ -100,7 +76,7 @@ h3 {
 
 /* Links inside the dropdown */
 .dropdown-content p {
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
   display: block;

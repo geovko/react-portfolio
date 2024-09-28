@@ -1,7 +1,11 @@
 // incomplete
 
 function Resume() {
-  return <div>Resume</div>;
+  return (
+    <div>
+      <h2>Resume</h2>
+    </div>
+  );
 }
 
 export default Resume;
