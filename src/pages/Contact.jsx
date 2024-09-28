@@ -1,5 +1,5 @@
 // incomplete
-import EmailForm from "../components/EmailForm";
+//import EmailForm from "../components/EmailForm";
 
 function Contact() {
   return (
