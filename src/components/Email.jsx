@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
 
-function EmailForm() {
+function Email() {
   function sendEmail(e) {
     e.preventDefault();
     const emailService = "service_1ls9hpk";
@@ -59,4 +59,4 @@ function EmailForm() {
   );
 }
 
-export default EmailForm;
+export default Email;
