@@ -8,7 +8,12 @@ function App() {
   return (
     <>
       <Header />
-      <div style={{ backgroundImage: `url(${background})` }}>
+      <div
+        className="background-image"
+        style={{
+          backgroundImage: `url(${background})`,
+        }}
+      >
         <Outlet />
       </div>
       <Footer />
