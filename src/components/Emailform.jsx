@@ -20,23 +20,21 @@ function EmailForm() {
 
   return (
     <form className="php-email-form" onSubmit={sendEmail}>
-      <div className="form-row">
-        <div className="col-md-6 form-group">
-          <input
-            required={true}
-            type="text"
-            name="name"
-            placeholder="Your Name"
-          />
-        </div>
-        <div className="col-md-6 form-group">
-          <input
-            required={true}
-            type="email"
-            name="email"
-            placeholder="Your Email"
-          />
-        </div>
+      <div className="form-group">
+        <input
+          required={true}
+          type="text"
+          name="name"
+          placeholder="Your Name"
+        />
+      </div>
+      <div className="form-group">
+        <input
+          required={true}
+          type="email"
+          name="email"
+          placeholder="Your Email"
+        />
       </div>
       <div className="form-group">
         <input
@@ -54,7 +52,7 @@ function EmailForm() {
           placeholder="Message"
         />
       </div>
-      <div className="text-center">
+      <div className="form-group">
         <button type="submit">Send Message</button>
       </div>
     </form>
@@ -62,58 +60,3 @@ function EmailForm() {
 }
 
 export default EmailForm;
-
-// import { useState } from "react";
-// import emailjs from "@emailjs/browser";
-
-// function EmailForm() {
-//   const [isSubmitting, setIsSubmitting] = useState(false);
-//   const [stateMessage, setStateMessage] = useState(null);
-
-//   const sendEmail = (e) => {
-//     e.persist();
-//     e.preventDefault();
-//     setIsSubmitting(true);
-//     emailjs
-//       .sendForm(
-//         process.env.REACT_APP_SERVICE_ID,
-//         process.env.REACT_APP_TEMPLATE_ID,
-//         e.target,
-//         process.env.REACT_APP_PUBLIC_KEY
-//       )
-//       .then(
-//         (result) => {
-//           setStateMessage("Message sent!");
-//           setIsSubmitting(false);
-//           setTimeout(() => {
-//             setStateMessage(null);
-//           }, 5000); // hide message after 5 seconds
-//         },
-//         (error) => {
-//           setStateMessage("Something went wrong, please try again later");
-//           setIsSubmitting(false);
-//           setTimeout(() => {
-//             setStateMessage(null);
-//           }, 5000); // hide message after 5 seconds
-//         }
-//       );
-
-//     // Clears the form after sending the email
-//     e.target.reset();
-//   };
-
-//   return (
-//     <form onSubmit={sendEmail}>
-//       <label>Name</label>
-//       <input type="text" name="user_name" />
-//       <label>Email</label>
-//       <input type="email" name="user_email" />
-//       <label>Message</label>
-//       <textarea name="message" />
-//       <input type="submit" value="Send" disabled={isSubmitting} />
-//       {stateMessage && <p>{stateMessage}</p>}
-//     </form>
-//   );
-// }
-
-// export default EmailForm;
