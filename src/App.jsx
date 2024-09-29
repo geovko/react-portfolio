@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
-import background from "./assets/images/green-squares-pixels-background.jpg";
+import background from "./assets/images/dark-green-wave-background.jpg";
 
 function App() {
   return (
