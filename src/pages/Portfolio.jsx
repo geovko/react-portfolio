@@ -18,8 +18,7 @@ function Portfolio() {
           title="Thought Bubble"
           repo="thought-bubble.git"
           desc="NoSQL API"
-          pic=""
-          site=""
+          pic="thought-bubble-insomnia.png"
         />
         <Project
           title="B.B.Blog"
@@ -41,7 +40,13 @@ function Portfolio() {
           desc="SQL"
           pic="empt-video-snippet.png"
         />
-        <Project title="" repo="" desc="" pic="" />
+        <Project
+          title="Pop Culture Critic"
+          repo="Pop-Culture-Critic.git"
+          desc="Full-Stack"
+          pic="p2-review-form.png"
+          site="https://pop-culture-critic.onrender.com/"
+        />
       </div>
     </div>
   );
