@@ -35,7 +35,12 @@ function Portfolio() {
           pic="task-board.tasks.png"
           site="https://geovko.github.io/Task-Board/"
         />
-        <Project title="" repo="" desc="" pic="" />
+        <Project
+          title="Employee Tracker"
+          repo="Employee-Tracker.git"
+          desc="SQL"
+          pic="empt-video-snippet.png"
+        />
         <Project title="" repo="" desc="" pic="" />
       </div>
     </div>
