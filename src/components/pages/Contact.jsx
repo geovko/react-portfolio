@@ -1,5 +1,5 @@
 // incomplete
-import Email from "../components/Email.jsx";
+import Email from "../sections/Email.jsx";
 
 function Contact() {
   return (

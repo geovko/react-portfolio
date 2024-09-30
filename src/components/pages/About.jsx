@@ -7,7 +7,7 @@ function About() {
       <div className="content">
         <img
           className="profile-image"
-          src="src/assets/images/profile_picture.jpg"
+          src="https://raw.githubusercontent.com/geovko/react-portfolio/refs/heads/main/src/assets/images/profile_picture.jpg"
           alt="Profile Picture"
         ></img>
         <div className="profile-content">

@@ -1,6 +1,6 @@
 // incomplete
 
-import Project from "../components/Project";
+import Project from "../sections/Project";
 
 function Portfolio() {
   return (

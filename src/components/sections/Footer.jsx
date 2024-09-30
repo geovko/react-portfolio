@@ -1,6 +1,3 @@
-// incomplete
-// add images
-// add functionality
 import { useState } from "react";
 // import githubIcon from "../assets/images/github-icon.png";
 // import linkedInIcon from "../assets/images/linkedIn-icon.png";

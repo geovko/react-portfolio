@@ -13,17 +13,31 @@
   --white: rgb(255, 255, 255);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   font-weight: 500;
   color: var(--color);
   text-decoration: inherit;
-  padding: 5px 10px;
+  padding: 5px;
+  margin: 5px 10px 0 10px;
   display: inline-block;
-  vertical-align: middle;
 }
 
 a:hover {
   color: var(--highlight);
+}
+
+.active {
+  background-color: var(--color);
+  border: var(--white);
+  color: var(--white);
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 2px 7px;
 }
 
 .background-image {
@@ -33,15 +47,12 @@ a:hover {
 
 .header {
   background-color: var(--nav-color);
-  padding: 10px;
+  padding: 0 5px;
+  margin: 0px;
   display: flex;
   justify-content: space-between;
   position: fixed;
   width: 100%;
-}
-
-nav {
-  vertical-align: middle;
 }
 
 .name-card {
@@ -51,11 +62,6 @@ nav {
   color: var(--white);
   text-align: center;
   padding-top: 20px;
-  font-weight: bold;
-}
-
-.name-card h1 {
-  color: var(--white);
   font-weight: bold;
 }
 
@@ -69,26 +75,17 @@ nav {
 }
 
 .page {
-  padding: 60px 0;
-  margin: 0 20px;
+  padding: 60px 20px;
 }
 
 .site-link {
   text-align: center;
 }
 
-.chosen {
-  background-color: var(--color);
-  border: var(--white);
-  color: var(--white);
-  font-weight: 900;
-  border-radius: 10px;
-}
-
 .contact-info {
   display: flex;
   justify-content: space-evenly;
-  margin: 30px;
+  margin: 0 30px;
   text-align: center;
 }
 
@@ -122,6 +119,7 @@ nav {
   border-radius: 5px;
   border: 1.2px solid var(--color);
   box-shadow: 0 0 40px var(--color);
+  height: 130px;
 }
 
 .profile-image {
@@ -139,7 +137,7 @@ nav {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 1.2em;
   line-height: 1.1;
 }
 
