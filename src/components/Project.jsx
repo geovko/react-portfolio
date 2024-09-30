@@ -7,7 +7,7 @@ function Project(props) {
   const [hasSite] = useState(props.site);
 
   const repository = `https://github.com/geovko/${props.repo}/`;
-  const image = `./src/assets/images/${props.pic}`;
+  const image = `../src/assets/images/${props.pic}`;
 
   return (
     <div className="project-card">
