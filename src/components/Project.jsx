@@ -6,8 +6,8 @@ function Project(props) {
   const [isHidden, setIsHidden] = useState(true);
   const [hasSite] = useState(props.site);
 
-  const repository = `https://github.com/geovko/${props.repo}/`;
-  const image = `../src/assets/images/${props.pic}`;
+  const repository = `https://github.com/geovko/${props.repo}.git/`;
+  const image = `https://raw.githubusercontent.com/geovko/react-portfolio/refs/heads/main/src/assets/images/${props.pic}`;
 
   return (
     <div className="project-card">

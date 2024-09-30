@@ -9,40 +9,40 @@ function Portfolio() {
       <div className="content">
         <Project
           title="Weather Dashboard"
-          repo="weather-dashboard.git"
+          repo="weather-dashboard"
           desc="3rd Party API"
           pic="weather-dashboard.png"
           site="https://geovko.github.io/weather-dashboard/"
         />
         <Project
           title="Thought Bubble"
-          repo="thought-bubble.git"
+          repo="thought-bubble"
           desc="NoSQL API"
           pic="thought-bubble-insomnia.png"
         />
         <Project
           title="B.B.Blog"
-          repo="Beep-Boop-Blog.git"
+          repo="Beep-Boop-Blog"
           desc="MVC"
           pic=""
           site="https://bbblog-mmvi.onrender.com/"
         />
         <Project
           title="Task Board"
-          repo="Task-Board.git"
+          repo="Task-Board"
           desc="jQuery UI"
           pic="task-board.tasks.png"
           site="https://geovko.github.io/Task-Board/"
         />
         <Project
           title="Employee Tracker"
-          repo="Employee-Tracker.git"
+          repo="Employee-Tracker"
           desc="SQL"
           pic="empt-video-snippet.png"
         />
         <Project
           title="Pop Culture Critic"
-          repo="Pop-Culture-Critic.git"
+          repo="Pop-Culture-Critic"
           desc="Full-Stack"
           pic="p2-review-form.png"
           site="https://pop-culture-critic.onrender.com/"
