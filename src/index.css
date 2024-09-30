@@ -3,20 +3,21 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--base);
+  color: var(--white);
 
-  --base: rgb(14, 20, 11);
-  --nav-color: rgb(25, 44, 61);
-  --color: rgb(97, 134, 165);
-  --highlight: rgb(157, 243, 246);
-  --white: white;
+  --base: #252525;
+  --nav-color: #181818;
+  --color: #4f7aa3;
+  --highlight: #b5e4ff;
+  --white: rgb(255, 255, 255);
 }
 
 a {
   font-weight: 500;
   color: var(--color);
   text-decoration: inherit;
-  margin: 5px 10px;
+  padding: 5px 10px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -68,30 +69,59 @@ nav {
 }
 
 .page {
-  padding-top: 60px;
+  padding: 60px 0;
   margin: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .site-link {
-  margin: 0 10px;
+  text-align: center;
+}
+
+.chosen {
+  background-color: var(--color);
+  border: var(--white);
+  color: var(--white);
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  text-align: center;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-group {
+  margin: 10px;
 }
 
 .project-card {
   width: 250px;
   height: 150px;
-  margin: 20px 20px 60px 20px;
+  margin: 0 20px 60px 20px;
+}
+
+.project-card a {
+  padding: 0;
 }
 
 .project-images {
   width: 250px;
   height: 150px;
+  border-radius: 5px;
+}
+
+.name-card {
+  border-radius: 5px;
+  border: 1.2px solid var(--color);
+  box-shadow: 0 0 40px var(--color);
 }
 
 .profile-image {
@@ -104,6 +134,10 @@ nav {
   margin: 0 30px;
 }
 
+.send-number {
+  padding-bottom: 90px;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -113,21 +147,34 @@ h2 {
   margin: 10px 0;
 }
 
+h4 {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--color);
   cursor: pointer;
-  transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border: 2px solid var(--highlight);
+  background-color: var(--nav-color);
+  color: var(--color);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media screen and (max-width: 486px) {
+  .page {
+    padding-top: 90px;
+    margin: 0 20px;
+  }
 }

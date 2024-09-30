@@ -5,7 +5,7 @@ import Project from "../components/Project";
 function Portfolio() {
   return (
     <div className="page">
-      <h2>Portfolio</h2>
+      <h4>Peruse at your leisure</h4>
       <div className="content">
         <Project
           title="Weather Dashboard"

@@ -3,7 +3,7 @@
 function Resume() {
   return (
     <div className="page">
-      <h2>Resume</h2>
+      <h4>Resume</h4>
       <div className="content"></div>
     </div>
   );
