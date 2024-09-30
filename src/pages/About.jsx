@@ -3,7 +3,7 @@
 function About() {
   return (
     <div className="page">
-      <h2>About Me</h2>
+      <h4>Introduction: Who is Philip Kim?</h4>
       <div className="content">
         <img
           className="profile-image"

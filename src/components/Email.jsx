@@ -25,7 +25,7 @@ function Email() {
           required={true}
           type="text"
           name="name"
-          placeholder="Your Name"
+          placeholder=" Your Name"
         />
       </div>
       <div className="form-group">
@@ -33,7 +33,7 @@ function Email() {
           required={true}
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder=" Your Email"
         />
       </div>
       <div className="form-group">
@@ -41,7 +41,7 @@ function Email() {
           required={true}
           type="text"
           name="subject"
-          placeholder="Subject"
+          placeholder=" Subject"
         />
       </div>
       <div className="form-group">
@@ -49,7 +49,7 @@ function Email() {
           required={true}
           name="message"
           rows="5"
-          placeholder="Message"
+          placeholder=" Message"
         />
       </div>
       <div className="form-group">
