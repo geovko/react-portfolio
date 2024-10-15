@@ -150,6 +150,35 @@ h4 {
   margin: 10px 0 20px 0;
 }
 
+ul h4,
+h5 {
+  text-align: left;
+  margin: 0;
+}
+
+.resume h2 {
+  margin: 0;
+}
+
+.resume h4 {
+  color: var(--highlight);
+}
+
+.resume h5 {
+  color: var(--color);
+}
+
+.resume {
+  display: inline-block;
+}
+
+.education,
+.experience,
+.skills {
+  padding: 10px 30px;
+  background-color: var(--nav-color);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid;
