@@ -20,13 +20,13 @@ function Portfolio() {
           desc="NoSQL API"
           pic="thought-bubble-insomnia.png"
         />
-        <Project
+        {/* <Project
           title="B.B.Blog"
           repo="Beep-Boop-Blog"
           desc="MVC"
           pic=""
           site="https://bbblog-mmvi.onrender.com/"
-        />
+        /> */}
         <Project
           title="Task Board"
           repo="Task-Board"

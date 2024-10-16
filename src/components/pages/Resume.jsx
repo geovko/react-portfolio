@@ -10,15 +10,15 @@ function Resume() {
           <h5>09/2017 - 06/2023</h5>
           <ul>
             <p>
-              Undergraduate I graduated with a triple major in Linguistics,
-              Asian Language & Cultures (AL&C), and Chinese.{" "}
+              I graduated with a triple major in Linguistics, Asian Language &
+              Cultures (AL&C), and Chinese.{" "}
             </p>
           </ul>
           <h4>National Yang Ming Chiao Tung University, Taipei</h4>
           <h5>02/2022 - 01/2023</h5>
           <ul>
             <p>
-              I participated in a year-long abroad study through the Chinese
+              I participated in a year-long abroad study through the UW Chinese
               Flagship. The main focus of this program is developing one’s
               Chinese fluency and one’s understanding of Taiwan culture.{" "}
             </p>
@@ -48,7 +48,7 @@ function Resume() {
               encourage a positive learning environment.{" "}
             </p>
           </ul>
-          <h4>Member Services/ Sales Rep. (UW Recreation, Seattle)</h4>
+          <h4>Member Services / Sales Rep. (UW Recreation, Seattle)</h4>
           <h5>06/2019 - 04/2023</h5>
           <ul>
             <p>
