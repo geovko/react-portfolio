@@ -6,11 +6,11 @@
 
 </div>
 
-## Description
+## What is it?
 
-Use nice words.
+I've prepared an online portfolio that utilizes React and is deployed through Netlify. In this portfolio, you can access an about page with a short introduction about me. Questions are welcome. Also included is a portfolio page with various projects I've completed or are working on (links to the repositories and the deployed site are included). I've also included my resume with a link to download the resume as a pdf. Finally, I've included a page with information on how to contact me. In the footer, I've included the links to my LinkedIn and my Github profile.
 
-## Usage
+## Where is it?
 
 Access the portfolio through the link provided below!
 
@@ -21,8 +21,6 @@ _OR_ Copy this link to paste into a browser.
 ``` md
 https://main--who-is-philip.netlify.app/
 ```
-
-INSTRUCTIONS HERE~
 
 ## Credits
 
