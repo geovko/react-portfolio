@@ -22,6 +22,7 @@ function Project(props) {
         >
           <h1>{props.title}</h1>
           <h3>{props.desc}</h3>
+          <p>Visit the Repo!</p>
         </div>
         <img
           className="project-images"
