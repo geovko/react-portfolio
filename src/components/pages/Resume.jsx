@@ -4,6 +4,10 @@ function Resume() {
   return (
     <div className="page">
       <div className="content resume">
+        <a href="https://raw.githubusercontent.com/geovko/react-portfolio/refs/heads/main/src/assets/Resume-2024.pdf">
+          Click here to download the resume in pdf format!
+        </a>
+
         <h2>Education</h2>
         <ul className="education">
           <h4>University of Washington, Seattle</h4>
